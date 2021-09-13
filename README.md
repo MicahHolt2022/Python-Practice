@@ -1,2 +1,2 @@
 # Python-Practice
-Programming!
+Starting to program.
