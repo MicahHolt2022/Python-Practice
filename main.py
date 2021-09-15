@@ -55,6 +55,10 @@ def bestTeacher():
     print("And the best teacher is...")
     #printing mr osowski
     print("Mr Osowski!")
+#defining myNameIs using variables
+def myNameIs(snake):
+    #defining parameter + print is my name // output string
+    print(snake + " is my name")
 #printing title
 print("These are my five favorite movies!")
 #running shortcut fiveFavFilms
@@ -69,3 +73,6 @@ orderSixtySix()
 favoriteColors()
 #running bestTeacher
 bestTeacher()
+#run myNameIs
+myNameIs("Mr Osowski")
+myNameIs("Snake")
