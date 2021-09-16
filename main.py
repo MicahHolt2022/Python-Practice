@@ -1,78 +1,13 @@
-#defining my functions
-#defining my five favorite films
-def fiveFavFilms():
-    #print first favorite movie
-    print("Rogue One")
-    #print second favorite movie
-    print("La La Land")
-    #print third favorite movie
-    print("Megamind")
-    #print fourth favorite movie
-    print("The Empire Strikes Back")
-    #print fifth favorite movie
-    print("Knives Out")
-#defining snakeEater
-def snakeEater():
-    #clanking
-    print("clank")
-    print("clank")
-    print("clank")
-    print("clank")
-    print("clank")
-    #saying the first line
-    print("What a thrill...")
-    #clanking
-    print("clank")
-    print("clank")
-    print("clank")
-    print("clank")
-    print("clank")
-    print("clank")
-#defining mySiblings
-def mySiblings():
-    #print oldest to youngest, my siblings
-    print("Caleb")
-    print("Susanna")
-    print("Grace")
-    print("Isak")
-    print("Phoebe")
-    print("Magdalena")
-#defining orderSixtySix
-def orderSixtySix():
-    #print Palpatine's line
-    print("Commander Cody, the time has come. Execute Order Sixty-Six.")
-    #print Cody's line
-    print("It will be done, my lord.")
-#defining my favorite colors
-def favoriteColors():
-    #print best colors
-    print("Dark Green")
-    print("Royal Purple")
-    print("Black")
-#defining bestTeacher
-def bestTeacher():
-    #printing the question
-    print("And the best teacher is...")
-    #printing mr osowski
-    print("Mr Osowski!")
-#defining myNameIs using variables
-def myNameIs(snake):
-    #defining parameter + print is my name // output string
-    print(snake + " is my name")
-#printing title
-print("These are my five favorite movies!")
-#running shortcut fiveFavFilms
-fiveFavFilms()
-#running snakeEater
-snakeEater()
-#running mySiblings
-mySiblings()
-#running orderSixtySix
-orderSixtySix()
-#running favoriteColors
-favoriteColors()
-#running bestTeacher
-bestTeacher()
-#run myNameIs
-myNameIs("Mr Osowski")
-myNameIs("Snake")
+#define
+
+def madLib(adjective,adjectiveA,typeOfBird,roomInAHouse,verbPast,verb,relativeName,nounA,liquid,verbIngA,partOfTheBodyPlural,pluralNoun,verbIngB,nounB):
+    #set output
+    print("It was a " + adjective + ", cold  November day. ")
+    print("I woke up to the " + adjectiveA + " smell of " + typeOfBird + " roasting in the " + roomInAHouse + " downstairs. ")
+    print("I " + verbPast + " down the stairs to see if I could help " + verb + " the dinner. ")
+    print("My mom said, ..See if " + relativeName + " needs a fresh " + nounA + "..." )
+    print("So I carried a tray of glasses full of " + liquid + " into the " + verbIngA + " room. ")
+    print("When I got there, I couldn't believe my " + partOfTheBodyPlural + "! ")
+    print("There were " + pluralNoun + " " + verbIngB + " on the " + nounB + "!")
+#run madLib(adjective,adjectiveA,typeOfBird,roomInAHouse,verbPast,verb,relativeName,noun,liquid,verbIngA,partOfTheBodyPlural,pluralNoun,verbIngB,nounB)
+madLib("funny","stupid","eagle","bathroom","sucked","slurp","Caleb","chair","OJ","jumping","thighs","chickens","swinging","Honda Civic")
