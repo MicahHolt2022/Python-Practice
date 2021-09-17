@@ -1,7 +1,7 @@
 #defining the variable function
 def twitchSub(userName):
     #setting output
-    print(userName + " has just subscribed!")
+    print(userName + " has joined the MikaMovement!")
 #running function twitchSub
 twitchSub("sampleUser123")
 
