@@ -126,6 +126,14 @@ def multiply(unit,unita):
 #running function
 multiply(2, 3)
 
+#defining woof
+def woof():
+    #defining substitute
+    return "Woof!"
+#printing woof()'s substitute
+print(woof())
+
+
 #generate random integer values
 from random import seed
 from random import randint
