@@ -18,3 +18,4 @@ if n == 2
 if n == 3 
 	Program (choose vscode)
 if n == 4
+	Pay rent

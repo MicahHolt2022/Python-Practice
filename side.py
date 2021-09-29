@@ -5,7 +5,7 @@ def twitchSub(userName):
 #running function twitchSub
 twitchSub("sampleUser123")
 
-#-------------------------- 
+#FirstFunctions!-------------------------- 
 
 #defining my functions
 #defining my five favorite films
