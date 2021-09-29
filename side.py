@@ -144,12 +144,16 @@ for _ in range(1):
     value = randint(0,100)
     print(value)
 
+<<<<<<< HEAD
 #if statements -----------------------------------------
 
+=======
+>>>>>>> 3b22f0d2364bfe36079255e909b08ca9d2a3b324
 def functionWord(word):
     word = word.lower
     if word == "yellow":
         return "cool"
+<<<<<<< HEAD
 print(functionWord("YeLLOw"))
 
 def greaterThan10(x):
@@ -216,3 +220,6 @@ def threeBigNumbers(x,y,z):
         return True
     else: 
         return False
+=======
+print(functionWord("YeLLOw"))
+>>>>>>> 3b22f0d2364bfe36079255e909b08ca9d2a3b324
