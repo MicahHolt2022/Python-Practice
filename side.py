@@ -144,8 +144,75 @@ for _ in range(1):
     value = randint(0,100)
     print(value)
 
+#if statements
+
 def functionWord(word):
     word = word.lower
     if word == "yellow":
         return "cool"
 print(functionWord("YeLLOw"))
+
+def greaterThan10(x):
+    if x > 10:
+        return "x is greater than 10."
+
+    elif x == 10:
+        return "x equals 10."
+
+    else:
+        return "x is not greater than 10."     
+        
+print(greaterThan10(5))
+
+#Modulus Operators
+
+print(23 % 10)
+print(3 % 2)
+print(99 % 100)
+
+def evenOrOdd(a):
+    if (a % 2) == 0:
+        return True
+    else:
+        return False
+
+print(evenOrOdd())
+
+#Boolean Logic Expressions
+#Boolean Operator "And"
+def twoBigAndNumbers(x,y):
+    if x > 10 and y > 10:
+        return True
+    else: 
+        return False
+
+
+    #JANKY ALERT
+    def twoBigNumbers(x,y):
+        if x > 10:
+            if y > 10:
+                return True
+            else:  False
+        else: False
+    #JANKY
+
+#Boolean Operator "Or"
+def twoBigOrNumbers(x,y):
+    if x > 10 or y > 10:
+        return True
+    else: 
+        return False
+
+#Boolean Operator "Not"
+def twoBigNotNumbers(x,y):
+    if x > 10 or not y > 10:
+        return True
+    else: 
+        return False
+
+#forcing order of operations
+def threeBigNumbers(x,y,z):
+    if x > 10 or (not y > 10 and z == 5): 
+        return True
+    else: 
+        return False

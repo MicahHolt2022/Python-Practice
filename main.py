@@ -1,11 +1,5 @@
-def greaterThan10(x):
-    if x > 10:
-        return "x is greater than 10."
-
-    elif x == 10:
-        return "x equals 10."
-
-    else:
-        return "x is not greater than 10."     
-        
-print(greaterThan10(5))
+def threeBigNumbers(x,y,z):
+    if x > 10 or (not y > 10 and z == 5): 
+        return True
+    else: 
+        return False
