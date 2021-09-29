@@ -89,7 +89,7 @@ bestTeacher()
 myNameIs("Mr Osowski")
 myNameIs("Snake")
 
-#----------------------------
+#------------------------------------------------------------------
 
 #defining variable function
 def timesTwo(unit):
@@ -134,7 +134,7 @@ def woof():
 print(woof())
 
 
-#generate random integer values
+#generate random integer values ------------------------------
 from random import seed
 from random import randint
 #seed random number generator
@@ -144,7 +144,7 @@ for _ in range(1):
     value = randint(0,100)
     print(value)
 
-#if statements
+#if statements -----------------------------------------
 
 def functionWord(word):
     word = word.lower
@@ -178,7 +178,7 @@ def evenOrOdd(a):
 
 print(evenOrOdd())
 
-#Boolean Logic Expressions
+#Boolean Logic Expressions ------------------------------
 #Boolean Operator "And"
 def twoBigAndNumbers(x,y):
     if x > 10 and y > 10:
