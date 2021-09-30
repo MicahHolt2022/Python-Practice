@@ -176,7 +176,7 @@ def evenOrOdd(a):
     else:
         return False
 
-print(evenOrOdd())
+print(evenOrOdd(2))
 
 #Boolean Logic Expressions ------------------------------
 #Boolean Operator "And"
@@ -216,3 +216,17 @@ def threeBigNumbers(x,y,z):
         return True
     else: 
         return False
+
+def functionWhile():
+    count = 1
+    while 2 < 5:
+        print("pog")
+
+def functionMulti():
+   print("functionB() \n" * 100)
+
+def functionCount100():
+   count = 1
+   while count <= 100:
+      print(count)
+      count = count + 1
