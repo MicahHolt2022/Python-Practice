@@ -246,3 +246,18 @@ def functionmulti10():
 def lastLetter(w):
    return w[(len(w)-1)]
 print(lastLetter("dog"))
+
+#for loops -----------------------------------------------------------------------------
+#for variable starting at one
+#do action until variable = 11
+#stop immediately
+for i in range(1, 11):
+    print(i)
+
+
+#same as 
+i = 1 
+
+while i < 11:
+    print(i)
+    i = i + 1

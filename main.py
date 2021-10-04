@@ -1,10 +1,8 @@
-#def lastLetter(w):
-#   return w[(len(w)-1)]
-#print(lastLetter("dog"))
+for i in range(1, 11):
+    print(i)
 
-def spellingBee(w):
-   count = 0
-   while count < len(w):
-      print(w[count])
-      count = count + 1 
-spellingBee("doggo")
+i = 1 
+
+while i < 11:
+    print(i)
+    i = i + 1
